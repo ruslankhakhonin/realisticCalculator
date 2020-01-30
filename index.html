@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator-body">
+        <div class="calculator-head">
+            <div class="calculator-head__top">
+            <div class="calculator-head__desc">
+                <div class="calculator-name"><h1>Citizen</h1></div>
+                <div class="calculator-model"><p>CT-77JS</p></div>
+                <div class="calculator-spec"><p>120 steps check and correct</p></div>
+            </div>
+            <div class="calculator-energy">
+                <div class="calculator-energy__wrapper">
+                    <div class="calculator-energy__item">JS</div>
+                    <div class="calculator-energy__item">3</div>
+                    <div class="calculator-energy__item">5</div>
+                </div>
+                <div class="calculator-energy__desc"><p>3 power</p></div>
+            </div>
+            <div class="calculator-solar-battery"></div>
+            <div class="calculator-digit-spec">
+                <span>12</span>
+                <p>Digit</p>
+            </div>
+        </div>
+            <div class="calculator-item">
+                <div id="display"></div>
+            </div>
+            <div class="calculator-decor">
+                <h2>large display</h2>
+            </div>
+        </div>
+        <div class="calculator-main">
+            <div class="calculator-main__header">
+                <div class="calculator-item" id="turnOff">OFF</div>
+                <div class="calculator-bars">
+                    <div class="calculator-bar calculator-bar_small">
+                        <div class="calculator-bar__step">1</div>
+                        <div class="calculator-bar__step">5/4</div>
+                        <div class="calculator-bar__step calculator-bar__step_last">&darr;</div>
+                        <div class="calculator-bar__slider"></div> 
+                    </div>
+                    <div class="calculator-bar calculator-bar_big">
+                        <div class="calculator-bar__step">F</div>
+                        <div class="calculator-bar__step">3</div>
+                        <div class="calculator-bar__step">2</div>
+                        <div class="calculator-bar__step">1</div>
+                        <div class="calculator-bar__step">0</div>
+                        <div class="calculator-bar__step calculator-bar__step_last">A</div>
+                        <div class="calculator-bar__slider"></div> 
+                    </div>
+                </div>
+                <div class="calculator-item check-item">Check<span>&larr;</span></div>
+                <div class="calculator-item check-item">Check<span>&rarr;</span></div>
+                <div class="calculator-item" id="memRC" data-result="">MRC</div>
+                <div class="calculator-item m-item" id="memMinus">M<div class="math-els"><span>-</span><span>=</span></div></div>
+                <div class="calculator-item m-item" id="memPlus">M<div class="math-els"><span>+</span><span>=</span></div></div>
+                <div class="calculator-item">Auto</div>
+                <div class="calculator-item">GT</div>
+                <div class="calculator-item" id="correct">Correct</div>
+            </div>
+            <div class="calculator-main__nums">
+                <div class="calculator-item">MU</div>
+                <div class="calculator-item cipher" data-number="7">7</div>
+                <div class="calculator-item cipher" data-number="8">8</div>
+                <div class="calculator-item cipher" data-number="9">9</div>
+                <div class="calculator-item operator" id="divide" data-operator="/">&divide;</div>
+                <div class="calculator-item">&triangleright;</div>
+                <div class="calculator-item">+/-</div>
+                <div class="calculator-item cipher" data-number="4">4</div>
+                <div class="calculator-item cipher" data-number="5">5</div>
+                <div class="calculator-item cipher" data-number="6">6</div>
+                <div class="calculator-item operator" data-operator="*">&times;</div>
+                <div class="calculator-item operator">%</div>
+                <div class="calculator-item cancel" id="clear">CE</div>
+                <div class="calculator-item cipher" data-number="1">1</div>
+                <div class="calculator-item cipher" data-number="2">2</div>
+                <div class="calculator-item cipher" data-number="3">3</div>
+                <div class="calculator-item operator" id="sum" data-operator="+">+</div>
+                <div class="calculator-item operator" data-operator="-">-</div>
+                <div class="calculator-item cancel" id="clearAll">AC</div>
+                <div class="calculator-item cipher" data-number="0">0</div>
+                <div class="calculator-item cipher" data-number="00">00</div>
+                <div class="calculator-item cipher" data-number=".">.</div>
+                <div class="calculator-item" id="equals" data-result="">=</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>   
